@@ -1,0 +1,22 @@
+{
+  "name": "jest-testing-use-cases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=jest-mongodb:* jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@shelf/jest-mongodb": "^2.1.1",
+    "babel-jest": "^27.4.5",
+    "jest": "^27.4.5"
+  },
+  "dependencies": {
+    "ethers": "^5.5.2",
+    "web3": "^1.6.1"
+  }
+}
