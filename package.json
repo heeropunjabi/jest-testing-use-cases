@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "DEBUG=jest-mongodb:* jest --watchAll"
+    "test": "jest --watchAll"
   },
   "author": "",
   "license": "ISC",
@@ -16,7 +16,11 @@
     "jest": "^27.4.5"
   },
   "dependencies": {
+    "bignumber.js": "^9.0.2",
+    "bn.js": "^5.2.0",
     "ethers": "^5.5.2",
+    "moralis": "0.0.178",
+    "parse-server-test-runner": "^1.0.0",
     "web3": "^1.6.1"
   }
 }
