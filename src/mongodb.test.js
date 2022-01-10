@@ -1,7 +1,7 @@
 const { MongoClient, Decimal128 } = require("mongodb");
 //const { ethers } = require("ethers");
 
-describe("insert", () => {
+describe.skip("insert", () => {
   let connection;
   let db;
 
