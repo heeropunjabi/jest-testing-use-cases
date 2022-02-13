@@ -13,12 +13,14 @@
     "@babel/preset-env": "^7.16.5",
     "@shelf/jest-mongodb": "^2.1.1",
     "babel-jest": "^27.4.5",
-    "jest": "^27.4.5"
+    "jest": "^27.4.5",
+    "winston-mongodb": "^5.0.7"
   },
   "dependencies": {
     "bignumber.js": "^9.0.2",
     "ethers": "^5.5.2",
     "mathjs": "^10.0.2",
-    "web3": "^1.6.1"
+    "web3": "^1.6.1",
+    "winston": "^3.6.0"
   }
 }

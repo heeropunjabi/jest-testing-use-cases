@@ -146,7 +146,7 @@ describe("Nikal doh", () => {
     console.log(d.toString());
   });
 
-  test.only("mathjs", () => {
+  test("mathjs", () => {
     const A = "10";
     const B = "3";
 
